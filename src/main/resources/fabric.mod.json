@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "survivalplus",
+	"version": "${version}",
+	"name": "survivalPlus",
+	"description": "This mod adds random things that I wanted to be in the game and thought were easy enough to code in",
+	"authors": [
+		"SirAbe"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/survivalplus/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.abe.survivalplus.SurvivalPlus"
+		],
+		"client": [
+			"net.abe.survivalplus.SurvivalPlusClient"
+		],
+		"fabric-datagen": [
+			"net.abe.survivalplus.SurvivalPlusDataGenerator"
+		]
+	},
+	"mixins": [
+		"survivalplus.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

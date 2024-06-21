@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "GRS",
+    "FBE"
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "D": {
+      "item": "minecraft:dragon_breath"
+    },
+    "G": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "R": {
+      "item": "minecraft:redstone@"
+    },
+    "B": {
+      "item": "minecraft:suspicious_stew"
+    },
+    "E": {
+      "item": "minecraft:echo_shard"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "id": "survivalplus:freaky_item",
+    "count": 1
+  }
+}
