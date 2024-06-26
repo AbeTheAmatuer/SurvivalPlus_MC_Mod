@@ -46,6 +46,7 @@ public class FreakyItem extends Item {
         }else{
             user.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 100, 2));
         }
+        
         return TypedActionResult.success(user.getStackInHand(hand));
     }
 }
