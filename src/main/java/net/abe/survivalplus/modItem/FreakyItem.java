@@ -21,12 +21,12 @@ import static org.w3c.dom.Text.*;
 public class FreakyItem extends Item {
     public FreakyItem(Settings settings) {
         super(settings);
-        randomEffects.add(new StatusEffectInstance(StatusEffects.NAUSEA, 100, 10));
-        randomEffects.add(new StatusEffectInstance(StatusEffects.REGENERATION, 100, 2));
-        randomEffects.add(new StatusEffectInstance(StatusEffects.LEVITATION, 100, 2));
-        randomEffects.add(new StatusEffectInstance(StatusEffects.HASTE, 100, 2));
+        randomEffects.add(new StatusEffectInstance(StatusEffects.NAUSEA, 120, 10));
+        randomEffects.add(new StatusEffectInstance(StatusEffects.REGENERATION, 120, 2));
+        randomEffects.add(new StatusEffectInstance(StatusEffects.LEVITATION, 120, 2));
+        randomEffects.add(new StatusEffectInstance(StatusEffects.HASTE, 120, 2));
         randomEffects.add(new StatusEffectInstance(StatusEffects.TRIAL_OMEN, 10000, 5));
-        randomEffects.add(new StatusEffectInstance(StatusEffects.SLOWNESS, 100, 10));
+        randomEffects.add(new StatusEffectInstance(StatusEffects.SLOWNESS, 120, 10));
 
     }
     public static ArrayList<StatusEffectInstance> randomEffects = new ArrayList<StatusEffectInstance>();
