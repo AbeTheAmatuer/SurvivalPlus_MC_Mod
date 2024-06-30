@@ -39,14 +39,14 @@ public class FreakyItem extends Item {
         world.addParticle(ParticleTypes.GUST, true, user.getX() - 3, user.getY(), user.getZ(), 0.05, 0.05, 0.05);
         world.addParticle(ParticleTypes.GUST, true, user.getX(), user.getY(), user.getZ() + 4, 0.05, 0.05, -0.05);
         world.addParticle(ParticleTypes.SQUID_INK, true, user.getX(), user.getY(), user.getZ() - 3, 0.05, 0.05, 0.05);
-        /*
+
         user.addStatusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 400, 400));
         user.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 400, 20));
         user.addStatusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 400, 2));
         user.addStatusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 400, 2));
         user.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 150, 1));
         user.addStatusEffect(new StatusEffectInstance(StatusEffects.WEAVING, 400, 3));
-*/
+
         //Random Effect
         int randNum = rand.nextInt(randomEffects.size());
         System.out.println(randomEffects.get(randNum));
