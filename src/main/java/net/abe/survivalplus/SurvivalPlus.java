@@ -27,6 +27,6 @@ public class SurvivalPlus implements ModInitializer {
 	public void onInitialize() {
 		Registry.register(Registries.ITEM, Identifier.of("survivalplus", "freaky_item"), FREAKY_ITEM);
 
-		Registry.register(Registries.BLOCK, Identifier.of("suvivalplus", "freaky_block"), FREAKY_BLOCK);
+		Registry.register(Registries.BLOCK, Identifier.of("survivalplus", "freaky_block"), FREAKY_BLOCK);
 	}
 } 

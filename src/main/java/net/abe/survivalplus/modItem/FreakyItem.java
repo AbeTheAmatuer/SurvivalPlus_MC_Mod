@@ -23,9 +23,9 @@ public class FreakyItem extends Item {
         super(settings);
         randomEffects.add(new StatusEffectInstance(StatusEffects.NAUSEA, 120, 10));
         randomEffects.add(new StatusEffectInstance(StatusEffects.REGENERATION, 120, 2));
-        randomEffects.add(new StatusEffectInstance(StatusEffects.LEVITATION, 120, 2));
+        randomEffects.add(new StatusEffectInstance(StatusEffects.MINING_FATIGUE, 120, 2));
         randomEffects.add(new StatusEffectInstance(StatusEffects.HASTE, 120, 2));
-        randomEffects.add(new StatusEffectInstance(StatusEffects.TRIAL_OMEN, 10000, 5));
+        randomEffects.add(new StatusEffectInstance(StatusEffects.RAID_OMEN, 10000, 5));
         randomEffects.add(new StatusEffectInstance(StatusEffects.SLOWNESS, 120, 10));
 
     }
